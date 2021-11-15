@@ -6,11 +6,11 @@ public class Country {
 
     private String name;
     private String language;
-    private String population;
+    private int population;
     private int capital;
     private int cities;
 
-    public Country(String name, String language, String population, int capital, int cities){
+    public Country(String name, String language, int population, int capital, int cities){
         this.name = name;
         this.language = language;
         this.population = population;
@@ -20,6 +20,6 @@ public class Country {
 
     public String toString(){
 
-        return name + " " + language + " " + population + " " + capital + " S" + cities ;
+        return name + " " + language + " " + population + " " + capital + " " + cities ;
     }
 }

@@ -60,9 +60,9 @@ public class Main {
         System.out.println( Main.max(100,20));
         Main.swap(300,500);
 
-        Country country1 = new Country("Ali","Englsh","run",10,15);
-        Country country2 = new Country("mohamed","arabic","fit",20,35);
-        Country country3 = new Country("Ali","Englsh","run",10,15);
+        Country country1 = new Country("USA","Englsh",200000,10000000,3);
+        Country country2 = new Country("saudi","Arabic",300000,200000000,2);
+        Country country3 = new Country("Kuite","Arabic",2555566,100000000,4);
 
 
         System.out.println(country1.toString());
