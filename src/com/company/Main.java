@@ -28,8 +28,12 @@ public class Main {
         System.out.println("numbers before swapping number1= "+value1+" and number2= "+value2);
         Swap(value1,value2);
         //OOP
-        Country country=new Country("Saudi Arabia","Arabic","3B","Riyadh","jeddah,Makkah");
-        System.out.println(country.toString());
+        Country country1=new Country("Saudi Arabia","Arabic","34M","Riyadh","jeddah,Makkah");
+        Country country2=new Country("US","English","67M","England","London,Manchester");
+        Country country3=new Country("Turkey","Turkish","84M","Ankara","Istanbul,Alacati");
+        System.out.println(country1.toString());
+        System.out.println(country2.toString());
+        System.out.println(country3.toString());
     }
     public static int Vowels(String name){
         int count=0;
