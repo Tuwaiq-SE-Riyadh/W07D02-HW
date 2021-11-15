@@ -5,11 +5,21 @@ public class Main {
 
         public static void main(String[] args)
         {
+            //Country class
+            Country count1 = new Country("Saudi" ,"Arabia" ,778987600,"Riyadh","Riyadh, Jeddah and Makkah");
+            Country count2 = new Country("Kuwait" ,"Arabia" ,67800,"Kuwait"," Kuwait and  Mubarak ");
+            Country count3 = new Country("turkey" ,"turkey" ,4888960,"Ankara"," İzmir and  Istanbul ");
 
-            int x = 15, y = 20;
+
+            System.out.println(count1.toString());
+            System.out.println(count2.toString());
+            System.out.println(count3.toString());
+
+
             //Vowels in the word
             System.out.print("Number of  Vowels in the name Ghadeer : " + countVowels("Ghadeer")+"\n");
 //swap void method
+int x = 15, y = 20;
             System.out.println("Before swapping x and y are: X="+ x + ", Y=" + y);
             swap(x, y);
             //Max
