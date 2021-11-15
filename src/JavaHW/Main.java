@@ -21,12 +21,12 @@ public class Main {
         Country country1=new Country("Saudi Arabia","Arabic","10 milion","Riyadh",cities);
         System.out.println( country1.toString());
 
-        String []cities2={"Makkah","Jeddah","Dammanm"};
-        Country country2=new Country("Saudi Arabia","Arabic","10 milion","Riyadh",cities);
+        String []cities2={"New York"," Los Angeles","Chicago"};
+        Country country2=new Country("United States","English","308 million ","Washington, D.C",cities);
         System.out.println( country2.toString());
 
-        String []cities3={"Makkah","Jeddah","Dammanm"};
-        Country country3=new Country("Saudi Arabia","Arabic","10 milion","Riyadh",cities);
+        String []cities3={"England","Scotland","Carlisle"};
+        Country country3=new Country("United Kingdom","English","67 million","London",cities);
         System.out.println( country3.toString());
     }
 
